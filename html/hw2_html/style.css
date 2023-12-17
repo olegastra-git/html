@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+}
+
+/* Стили меню */
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Стили для h1 */
+.custom-h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/* Стили для параграфов */
+.custom-paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+/* Стили для h2 */
+.custom-h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+/* Разделение экрана на две части */
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Стили для левой части экрана (HTML-файлы) */
+body > *:nth-child(odd) {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Стили для правой части экрана (файл стилей) */
+body > *:nth-child(even) {
+    padding: 20px;
+    background-color: #e0e0e0;
+}
