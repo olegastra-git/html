@@ -1,0 +1,488 @@
+.desktop-index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop-index .div {
+    background-color: #ffffff;
+    height: 2925px;
+    position: relative;
+    width: 1600px;
+  }
+  
+  .desktop-index .overlap {
+    background-image: url(./background.svg);
+    background-size: 100% 100%;
+    height: 764px;
+    left: 0;
+    position: absolute;
+    top: 75px;
+    width: 1600px;
+  }
+  
+  .desktop-index .group {
+    height: 93px;
+    left: 864px;
+    position: absolute;
+    top: 290px;
+    width: 407px;
+  }
+  
+  .desktop-index .rectangle-copy {
+    height: 92px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+  }
+  
+  .desktop-index .THE-BRAND-OF {
+    color: transparent;
+    font-family: "Lato-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop-index .text-wrapper {
+    color: #222222;
+    font-weight: 900;
+  }
+  
+  .desktop-index .span {
+    color: #222222;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .desktop-index .text-wrapper-2 {
+    color: #f16d7f;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .desktop-index .layer-removebg {
+    height: 764px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 801px;
+  }
+  
+  .desktop-index .header {
+    background-color: transparent;
+    background-image: url(./rectangle-25.svg);
+    background-size: 100% 100%;
+    height: 75px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1600px;
+  }
+  
+  .desktop-index .logo {
+    height: 38px;
+    left: 231px;
+    position: absolute;
+    top: 18px;
+    width: 111px;
+  }
+  
+  .desktop-index .forma {
+    height: 27px;
+    left: 85px;
+    position: absolute;
+    top: 10px;
+    width: 26px;
+  }
+  
+  .desktop-index .img {
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 44px;
+  }
+  
+  .desktop-index .button-copy {
+    height: 29px;
+    left: 1201px;
+    position: absolute;
+    top: 26px;
+    width: 159px;
+  }
+  
+  .desktop-index .forma-2 {
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 32px;
+  }
+  
+  .desktop-index .forma-3 {
+    height: 29px;
+    left: 65px;
+    position: absolute;
+    top: 0;
+    width: 29px;
+  }
+  
+  .desktop-index .group-2 {
+    background-image: url(./forma-1-3.svg);
+    background-size: 100% 100%;
+    height: 29px;
+    left: 127px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .desktop-index .products {
+    height: 1395px;
+    left: 230px;
+    position: absolute;
+    top: 1470px;
+    width: 1144px;
+  }
+  
+  .desktop-index .element {
+    height: 587px;
+    left: 0;
+    position: absolute;
+    top: 106px;
+    width: 360px;
+  }
+  
+  .desktop-index .overlap-group {
+    height: 587px;
+    position: relative;
+  }
+  
+  .desktop-index .background {
+    height: 581px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 360px;
+  }
+  
+  .desktop-index .img-2 {
+    height: 420px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 360px;
+  }
+  
+  .desktop-index .title-and-price {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    left: 0;
+    padding: 24px 16px;
+    position: absolute;
+    top: 421px;
+    width: 360px;
+  }
+  
+  .desktop-index .ELLERY-x-m-o-CAPSULE {
+    color: #000000;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 148.11px;
+  }
+  
+  .desktop-index .p {
+    color: #5d5d5d;
+    font-family: "Lato-Light", Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 314.74px;
+  }
+  
+  .desktop-index .text-wrapper-3 {
+    color: #f16d7f;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 52.46px;
+  }
+  
+  .desktop-index .element-2 {
+    background-image: url(./background-3.svg);
+    background-size: 100% 100%;
+    height: 581px;
+    left: 0;
+    position: absolute;
+    top: 718px;
+    width: 360px;
+  }
+  
+  .desktop-index .title-and-price-2 {
+    height: 117px;
+    left: 16px;
+    position: absolute;
+    top: 444px;
+    width: 321px;
+  }
+  
+  .desktop-index .ELLERY-x-m-o-CAPSULE-2 {
+    color: #000000;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 148px;
+  }
+  
+  .desktop-index .text-wrapper-4 {
+    color: #5d5d5d;
+    font-family: "Lato-Light", Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+    width: 315px;
+  }
+  
+  .desktop-index .text-wrapper-5 {
+    color: #f16d7f;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 98px;
+    width: 52px;
+  }
+  
+  .desktop-index .element-3 {
+    background-image: url(./background-4.svg);
+    background-size: 100% 100%;
+    height: 581px;
+    left: 390px;
+    position: absolute;
+    top: 107px;
+    width: 360px;
+  }
+  
+  .desktop-index .element-4 {
+    background-image: url(./background-5.svg);
+    background-size: 100% 100%;
+    height: 581px;
+    left: 390px;
+    position: absolute;
+    top: 718px;
+    width: 360px;
+  }
+  
+  .desktop-index .element-5 {
+    background-image: url(./background-6.svg);
+    background-size: 100% 100%;
+    height: 581px;
+    left: 780px;
+    position: absolute;
+    top: 107px;
+    width: 360px;
+  }
+  
+  .desktop-index .rectangle-copy-2 {
+    height: 420px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 360px;
+  }
+  
+  .desktop-index .element-6 {
+    background-image: url(./background-7.svg);
+    background-size: 100% 100%;
+    height: 581px;
+    left: 780px;
+    position: absolute;
+    top: 718px;
+    width: 360px;
+  }
+  
+  .desktop-index .text-wrapper-6 {
+    color: #222222;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 480px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .desktop-index .text-wrapper-7 {
+    color: #9f9f9f;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 401px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 42px;
+  }
+  
+  .desktop-index .button {
+    all: unset;
+    box-sizing: border-box;
+    height: 48px;
+    left: 465px;
+    position: absolute;
+    top: 1347px;
+    width: 214px;
+  }
+  
+  .desktop-index .div-wrapper {
+    background-image: url(./rectangle-5.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 212px;
+  }
+  
+  .desktop-index .text-wrapper-8 {
+    color: #f26376;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+  }
+  
+  .desktop-index .offer {
+    height: 470px;
+    left: 230px;
+    position: absolute;
+    top: 904px;
+    width: 1140px;
+  }
+  
+  .desktop-index .element-ACCESORIES {
+    height: 180px;
+    left: 0;
+    position: absolute;
+    top: 290px;
+    width: 1140px;
+  }
+  
+  .desktop-index .element-for-kids {
+    height: 260px;
+    left: 780px;
+    position: absolute;
+    top: 0;
+    width: 362px;
+  }
+  
+  .desktop-index .NEW-ARRIVALS-FOR-wrapper {
+    background-image: url(./group-38.jpg);
+    background-size: 100% 100%;
+    height: 260px;
+    position: relative;
+    width: 360px;
+  }
+  
+  .desktop-index .NEW-ARRIVALS-FOR {
+    color: transparent;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 105px;
+  }
+  
+  .desktop-index .text-wrapper-9 {
+    color: #ffffff;
+  }
+  
+  .desktop-index .text-wrapper-10 {
+    color: #f16d7f;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .desktop-index .element-for-men {
+    height: 260px;
+    left: 390px;
+    position: absolute;
+    top: 0;
+    width: 360px;
+  }
+  
+  .desktop-index .element-for-women {
+    height: 260px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 362px;
+  }
+  
+  .desktop-index .element-OFF-FOR-WOMEN-wrapper {
+    background-color: #c4c4c4;
+    background-image: url(./group-36.png);
+    background-size: 100% 100%;
+    height: 260px;
+    position: relative;
+    width: 360px;
+  }
+  
+  .desktop-index .element-OFF-FOR-WOMEN {
+    color: transparent;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 103px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 105px;
+  }
