@@ -1,0 +1,142 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .top {
+    padding-top: 10px;
+  }
+  .center {
+    padding-left: calc(50% - 150px);
+    padding-right: calc(50% - 150px);
+  }
+  .header {
+    min-height: 50px;
+    gap: 20px;
+  }
+  .header__left {
+    gap: 20px;
+  }
+  .header__right {
+    gap: 15px;
+  }
+  .mobile-menu {
+    top: 50px;
+    right: -180px;
+    width: 180px;
+    padding: 20px;
+  }
+  .mobile-menu__link-site {
+    display: flex;
+  }
+  .mobile-menu__heading {
+    font-size: 12px;
+  }
+  .mobile-menu__link {
+    font-size: 12px;
+  }
+  .promo {
+    padding-left: calc(50% - 400px);
+    padding-right: calc(50% - 400px);
+  }
+  .promo__info {
+    margin-top: 30%;
+  }
+  .promo__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .promo__heading {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .sale {
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+.slider__arrow_right {  right: 40px;
+}
+.slider__dots {  display: -webkit-box;
+  display: -ms-flexbox;  display: flex;
+  -webkit-box-pack: center;  -ms-flex-pack: center;
+  justify-content: center;  gap: 5px;
+  position: absolute;  bottom: 70px;
+}
+.slider__dot {  width: 6px;
+  height: 6px;  background: #BFBFBF;
+  border-radius: 50%;  cursor: pointer;
+}
+.slider__dot_active {  background: #F16D7F;
+}
+
+.image__list {  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;  gap: 30px;
+  padding-left: 30px;  padding-right: 30px;
+  -webkit-box-pack: center;  -ms-flex-pack: center;
+  justify-content: center;  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;  padding-bottom: 30px;
+}
+
+.modal {
+  display: none;  position: fixed;
+  z-index: 999;  padding-top: 60px;
+  left: 0;  top: 0;  width: 100%;
+  height: 100%;  overflow: auto;
+  background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {  display: -webkit-box;  display: -ms-flexbox;
+  display: flex;  -webkit-box-pack: center;
+  -ms-flex-pack: center;  justify-content: center;
+  -webkit-box-align: center;  -ms-flex-align: center;
+  align-items: center;
+  -webkit-animation: fade 0.5s;
+  animation: fade 0.5s;
+}
+
+.close {  position: absolute;
+  top: 20px;  right: 30px;  font-size: 50px;
+  font-weight: bold;  color: #F16D7F;
+}
+.carousel {
+  position: relative;  width: 800px;
+  height: 500px;  margin-top: 50px;
+}
+
+.carousel__slide {  opacity: 0;
+  position: absolute;  top: 0;
+  width: 100%;  height: 100%;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -ms-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;}
+
+.carousel__slide_active {  opacity: 1;}
+
+.carousel__dots {  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;  -webkit-box-pack: center;
+  -ms-flex-pack: center;  justify-content: center;
+  gap: 10px;  position: absolute;
+  bottom: 30px;  left: 0;  right: 0;
+}
+
+.carousel__dot {  width: 10px;
+  height: 10px;  background: #BFBFBF;
+  border-radius: 50%;  cursor: pointer;
+}
+
+.carousel__dot_active {  background: #F16D7F;
+}
+
+@-webkit-keyframes fade {  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes fade {  from {opacity: 0;}
+  to {opacity: 1;}
+}
