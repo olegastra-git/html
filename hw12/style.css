@@ -6,7 +6,23 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.menu {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: background-color 0.3s ease;
+}
+
+.menu:hover {
+  background-color: red;
+}
 img {
   max-width: 100%;
 }
